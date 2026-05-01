@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xc-framework-model" />
+        <module name="xc-service-api" />
+        <module name="xc-framework-utils" />
+        <module name="xc-framework-common" />
+        <module name="xc-service-manage-cms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jj" target="1.8" />
+      <module name="kk" target="1.8" />
+      <module name="ooo" target="1.8" />
+      <module name="xc" target="1.8" />
+      <module name="xc2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jj" options="-parameters" />
+      <module name="kk" options="-parameters" />
+      <module name="ooo" options="-parameters" />
+      <module name="xc" options="-parameters" />
+      <module name="xc-framework-common" options="-parameters" />
+      <module name="xc-framework-model" options="-parameters" />
+      <module name="xc-framework-parent" options="-parameters" />
+      <module name="xc-framework-utils" options="-parameters" />
+      <module name="xc-service-api" options="-parameters" />
+      <module name="xc-service-manage-cms" options="-parameters" />
+      <module name="xc2" options="-parameters" />
+    </option>
+  </component>
+</project>
